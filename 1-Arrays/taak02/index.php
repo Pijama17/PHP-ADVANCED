@@ -1,18 +1,14 @@
-<!DOCTYPE html>
-<html>
-
 <?php
+ $leeftijd = 0 ;
+
+ while($leeftijd < 17){
+   echo "Ik ben $leeftijd jaar, dus ik mag nog niet stemmen" . "<br>";
+   $leeftijd++;
+
+   if($leeftijd == 18){
+     echo "Ik ben $leeftijd jaar, dus ik mag stemmen";
+   }
+ }
 
 
-$persoon["voornaam"] = "Rayan";
-$persoon["achternaam"] = "Ouladomar";
-$persoon["leeftijd"] = 17;
-$persoon["opleiding"] = "software developer";
-
-echo $persoon['voornaam']. " ". $persoon['achternaam'] . " is " . $persoon['leeftijd']. " 17 jaar oud en ben een studen van rocva amstelland/'' " . $persoon['opleiding'] ; 
-
-?>
-
-
-</body>
-</html>
+ ?>
