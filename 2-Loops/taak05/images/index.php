@@ -1,6 +1,6 @@
 <?php
 $students = [
-  'voornaam'   =>"Jan",
+  'voornaam'   =>"jane",
   'achternaam' =>"Janssen",
   'klas'       =>"9A",
   'Leeftijd'   =>17,
