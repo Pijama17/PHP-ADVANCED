@@ -1,5 +1,5 @@
 <?php
-/*ik heb GET gebruikt omdat aaron van linde zei dat het moest*/
+/*ik heb GET gebruikt omdat aaron van linde zei dat het moesst*/
 echo "de zojuist ingevulde gegevens:". "<br>" . $_GET['first-name'] . "<br>";
 echo $_GET['last-name'] . "<br>";
 echo $_GET['klas'] . "<br>";
@@ -8,4 +8,5 @@ echo $_GET['adres'] . "<br>";
 echo $_GET['placename'] . "<br>";
 echo $_GET['favemusicband'] . "<br>";
 ?>
+
 
